@@ -1,3 +1,16 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+header {
+    display: flex;
+}
+
+.company-logo {
+    margin-top: 35px;
+}
+
+.header-items {
+    margin-left: 300px;
+    display: inline
+}
