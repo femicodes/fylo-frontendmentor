@@ -4,13 +4,33 @@ body {
 
 header {
     display: flex;
-}
-
-.company-logo {
-    margin-top: 35px;
+    padding: 25px;
 }
 
 .header-items {
-    margin-left: 300px;
-    display: inline
+    margin-left: 700px;
+}
+
+.header-items ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.pitch-one {
+    display: flex;
+}
+
+.illustration {
+    
+ width: 40%;
 }
