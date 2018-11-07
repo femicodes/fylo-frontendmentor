@@ -30,7 +30,8 @@ header {
     display: flex;
 }
 
-.illustration {
+.illustration-one {
+    background-image: url("./images/illustration-1.svg");
+    width: 800%;
     
- width: 40%;
 }
