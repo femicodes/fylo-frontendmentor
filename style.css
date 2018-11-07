@@ -30,8 +30,31 @@ header {
     display: flex;
 }
 
-.illustration-one {
-    background-image: url("./images/illustration-1.svg");
-    width: 800%;
-    
+.main-pitch h1 {
+    font-weight: 700;
+	font-size: 2.8em;
+    color: hsl(243, 87%, 12%);
+}
+
+.main-pitch p {
+    color: hsl(238, 22%, 44%);
+    font-size: 1.3em;
+}
+
+.illustration-one img {
+    width: 40rem;
+}
+
+.sign-email input {
+    border: 0.5px solid rgba(0,0,0,0.05);
+    padding: 15px;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.sign-email button {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    padding: 30px;
 }
